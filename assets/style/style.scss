@@ -13,25 +13,23 @@ body {
 }
 
 // Катя услуги начало 
- .container {
- 
+
+.subtitle {
+ color: $grey_tx;
+ text-align: center;
+}
+
+ .container__services{
+
+    margin-left: 25%;
+  
     .card-body {
         margin: 10%;
         padding: 10%;
         border: 1px;
         border-radius: 5%;
         background-color: $yellow;
-        box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
-    }
-
-    .card_body-major {
-        margin: 10%;
-        padding: 10%;
-        border: 1px;
-        border-radius: 5%;
-        height: 17rem;
-        background-color:  $yellow;
-        box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
+        box-shadow: 4px 4px 4px $brown_shadow;
     }
 
     .card-title {
@@ -45,6 +43,22 @@ body {
     a:link {
         color: $light_tx;
     }
+}
+
+.modal-content {
+    border: 1px $light_tx;
+    border-radius: 2%;
+    box-shadow: 7px 7px 15px $grey_shadow;
+}
+
+.modal-title,
+.modal-list {
+    margin: 2%;
+    color: $grey_tx;
+}
+
+.modal-img {
+    padding: 2%;
 }
 
 // Катя услуги конец
