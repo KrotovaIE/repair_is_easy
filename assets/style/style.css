@@ -19,7 +19,7 @@ body {
   margin-left: 25%;
 }
 .container__services .card-body {
-  margin: 10%;
+  margin: 13%;
   padding: 10%;
   border: 1px;
   border-radius: 5%;
@@ -38,7 +38,7 @@ body {
 }
 
 .container_industrial {
-  margin-left: 18%;
+  margin-left: 16%;
 }
 
 .modal-content {
@@ -56,4 +56,22 @@ body {
 
 .modal-img {
   padding: 2%;
+}
+
+.container__additional {
+  margin-left: 26%;
+  background-color: #F6FAFB;
+  -webkit-box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
+          box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
+  border-radius: 3%;
+  height: 7rem;
+  width: 44rem;
+}
+.container__additional .additional-text {
+  text-align: center;
+  color: #252B31;
+  padding: 3%;
+}
+.container__additional .colortext {
+  color: #d49c6b;
 }

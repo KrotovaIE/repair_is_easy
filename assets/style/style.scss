@@ -28,7 +28,7 @@ body {
     margin-left: 25%;
   
     .card-body {
-        margin: 10%;
+        margin: 13%;
         padding: 10%;
         border: 1px;
         border-radius: 5%;
@@ -50,7 +50,7 @@ body {
 }
 
 .container_industrial {
-    margin-left: 9%;
+    margin-left: 16%;
 }
 
 .modal-content {
@@ -67,6 +67,24 @@ body {
 
 .modal-img {
     padding: 2%;
+}
+
+.container__additional {
+    margin-left: 26%;
+    background-color: $light_tx;
+    box-shadow: 4px 4px 4px $brown_shadow;
+    border-radius: 3%;
+    height: 7rem;
+    width: 44rem;
+
+    .additional-text {
+        text-align: center;
+        color: $grey_tx;
+        padding: 3%;
+    }
+    .colortext {
+        color: $yellow;
+    }
 }
 
 // Катя услуги конец
