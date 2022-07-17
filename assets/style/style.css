@@ -3,5 +3,34 @@
 }
 
 body {
-  color: #d4726b;
-}/*# sourceMappingURL=style.css.map */
+  color: #d49c6b;
+}
+
+.container .card-body {
+  margin: 10%;
+  padding: 10%;
+  border: 1px;
+  border-radius: 5%;
+  background-color: #d49c6b;
+  -webkit-box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
+          box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
+}
+.container .card_body-major {
+  margin: 10%;
+  padding: 10%;
+  border: 1px;
+  border-radius: 5%;
+  height: 17rem;
+  background-color: #d49c6b;
+  -webkit-box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
+          box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
+}
+.container .card-title {
+  color: #F6FAFB;
+}
+.container .card-text {
+  color: #252B31;
+}
+.container a:link {
+  color: #F6FAFB;
+}

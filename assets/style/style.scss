@@ -11,3 +11,40 @@
 body {
     color: $yellow;
 }
+
+// Катя услуги начало 
+ .container {
+ 
+    .card-body {
+        margin: 10%;
+        padding: 10%;
+        border: 1px;
+        border-radius: 5%;
+        background-color: $yellow;
+        box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
+    }
+
+    .card_body-major {
+        margin: 10%;
+        padding: 10%;
+        border: 1px;
+        border-radius: 5%;
+        height: 17rem;
+        background-color:  $yellow;
+        box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
+    }
+
+    .card-title {
+        color: $light_tx;
+    }
+
+    .card-text {
+        color: $grey_tx;
+    }
+
+    a:link {
+        color: $light_tx;
+    }
+}
+
+// Катя услуги конец
