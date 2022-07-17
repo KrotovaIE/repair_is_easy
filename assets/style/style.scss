@@ -1,0 +1,13 @@
+@import "vars";
+@import "blocks/header";
+@import "blocks/first";
+@import "blocks/advantages";
+@import "blocks/projects";
+@import "blocks/services";
+@import "blocks/reviews";
+@import "blocks/whatsapp";
+
+
+body {
+    color: $yellow;
+}
