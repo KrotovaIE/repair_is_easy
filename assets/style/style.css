@@ -33,6 +33,10 @@ body {
   color: #F6FAFB;
 }
 
+.container_industrial {
+  margin-left: 18%;
+}
+
 .modal-content {
   border: 1px #F6FAFB;
   border-radius: 2%;
