@@ -18,6 +18,14 @@
   margin-top: 5rem;
 }
 
+.carousel-inner {
+  text-align: center;
+}
+
+.carousel-item {
+  max-height: 80vh;
+}
+
 .text {
   font-weight: 500;
   font-size: 1rem;
