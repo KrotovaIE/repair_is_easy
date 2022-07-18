@@ -44,9 +44,23 @@ body {
         color: $grey_tx;
     }
 
-    a:link {
-        color: $light_tx;
-    }
+    
+}
+
+a:link {
+    color: $light_tx;
+}
+
+a:active {
+    color: $light_tx;
+}
+
+a:visited {
+    color: $light_tx;
+}
+
+a:hover {
+    color: $grey_tx; 
 }
 
 .container_industrial {

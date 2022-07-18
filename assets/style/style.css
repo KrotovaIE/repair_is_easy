@@ -33,8 +33,21 @@ body {
 .container__services .card-text {
   color: #252B31;
 }
-.container__services a:link {
+
+a:link {
   color: #F6FAFB;
+}
+
+a:active {
+  color: #F6FAFB;
+}
+
+a:visited {
+  color: #F6FAFB;
+}
+
+a:hover {
+  color: #252B31;
 }
 
 .container_industrial {
