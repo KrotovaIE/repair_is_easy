@@ -1,7 +1,7 @@
 @import "vars";
+@import "fonts";
 @import "blocks/header";
 @import "blocks/first";
-@import "blocks/advantages";
 @import "blocks/projects";
 @import "blocks/services";
 @import "blocks/reviews";
@@ -9,5 +9,12 @@
 
 
 body {
-    color: $yellow;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+main {
+    flex-grow: 1;
 }

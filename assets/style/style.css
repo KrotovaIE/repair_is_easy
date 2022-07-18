@@ -1,7 +1,11 @@
-.projects {
-  color: #4B535A;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
-body {
-  color: #d4726b;
+main {
+  flex-grow: 1;
 }/*# sourceMappingURL=style.css.map */
