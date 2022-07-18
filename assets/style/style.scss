@@ -8,11 +8,40 @@
 @import "blocks/whatsapp";
 
 
+
+.text {
+    font-weight: 500;
+    font-size: 1rem;
+    color: $grey_tx;
+}
+
+.text-white {
+    font-weight: 500;
+    font-size: 1rem;
+    color: $light_tx;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: $grey_tx;
+}
+
+.title-white {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: $light-tx;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    max-width: 100vw;
     height: 100vh;
     display: flex;
     flex-flow: column nowrap;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 main {
