@@ -24,7 +24,43 @@
             <div>Широкий спектр услуг</div>
 
             <!-- Анна -->
-            <div>Форма</div>
+            <div class="wrapper">
+                <div class="form">
+                    <form action="#" id="form" class="form__body">
+                        <div class="form__title">ЗАПОЛНИТЕ ФОРМУ</div>
+                        <div class="form__item">
+                            <label for="formName" class="form__label">Ваше имя*</label>
+                            <input id="formName" type="text" name="name" class="form__input _req">
+                        </div>
+                        <div class="form__item">
+                            <label for="formEmail" class="form__label">E-mail*</label>
+                            <input id="formEmail" type="text" name="email" class="form__input _req _email">
+                        </div>
+                        <div class="form__item">
+                            <label for="formPhone" class="form__label">Номер телефона*</label>
+                            <input id="formPhone" type="text" name="phone" class="form__input _req _phone">
+                        </div>
+                        <div class="form__item form__item_textarea">
+                            <label for="formMessage" class="form__label">Опишите Вашу заявку</label>
+                            <textarea name="message" id="formMessage"
+                                class="form__input form__input_textarea"></textarea>
+                        </div>
+                        <div class="form__item form__item_loadImg">
+                            <div class="form__label">Прикрепить фото объекта</div>
+                            <div class="file">
+                                <div class="file__item">
+                                    <input id="formImage" accept=".jpg, .png, .gif" type="file" name="image"
+                                        class="file__input">
+                                    <div class="file__button">Выбрать</div>
+                                </div>
+                                <div id="formPreview" class="file__preview"></div>
+                            </div>
+                        </div>
+                        <button type="submit" class="form__button">Отправить заявку</button>
+                        <div id="message"></div>
+                    </form>
+                </div>
+            </div>
         </section>
 
         <section>
@@ -104,6 +140,7 @@
         });
     </script>
     <!-- Скрипты для работы модальных окон -->
+    <script src="js/form.js"></script>
 </body>
 
 </html>
