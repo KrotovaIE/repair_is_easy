@@ -264,9 +264,43 @@
             Давайте выполним (форма)
         </section>
 
-        <section>
-            <!-- пока ни кто не взял -->
-                Отзывы
+        <section class="main__section main__section_feedback">
+            <img class="feedback__line" src="assets/img/subtitleLine.png" alt="feedback-line">
+            <h2 class="subtitle">Отзывы о нашей компании</h2>
+            <img
+                class="feedback__line" src="assets/img/subtitleLine.png" alt="feedback-line">
+
+                <div id="carousel" class="carousel slide" data-ride="carousel">
+                    <!-- Индикаторы -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel" data-slide-to="1"></li>
+                      <li data-target="#carousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="img-fluid" src="assets/img/feedbackFirst.jpg" alt="feedback">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="img-fluid" src="assets/img/feedbackSecond.jpg" alt="feedback">
+                      </div>
+                      <div class="carousel-item">
+                          <img class="img-fluid" src="assets/img/feedbackThird.jpg" alt="feedback">
+                      </div>
+                    </div>
+                    <!-- Элементы управления -->
+                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <img class="img-btn" src="assets/img/leftBtn.png" alt="button">
+                      <span class="sr-only"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                      <img class="img-btn" src="assets/img/rightBtn.png" alt="button">
+                      <span class="sr-only"></span>
+                    </a>
+                  </div>
+
+
+
         </section>
     </main>
 
