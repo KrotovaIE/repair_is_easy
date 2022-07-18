@@ -3,8 +3,8 @@
 }
 
 .form {
-    background: rgba(212, 156, 107, 1);
-    border: 0.625rem solid rgba(212, 156, 107, 1);
+    background: $yellow;
+    border: 0.625rem solid $yellow;
     border-radius: 1.05rem;
     max-width: 500px;
     margin: 0 auto;
@@ -17,12 +17,12 @@
 }
 
 .form__body {
-    background: linear-gradient(144.09deg, #4B535A 22.67%, #354049 112.84%),
-        linear-gradient(0deg, #D49C6B, #D49C6B);
+    background: linear-gradient(144.09deg, $grey_bg 22.67%, #354049 112.84%),
+        linear-gradient(0deg, $yellow, $yellow);
     border-radius: 0.625rem;
     padding: 3% 12%;
     min-height: 590px;
-    color: rgba(246, 250, 251, 1);
+    color: $light_tx;
     position: relative;
 }
 
@@ -33,7 +33,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background:  #d49c6b7c url('../img/loading.gif') center / 9rem no-repeat;
+    background:  $yellow url('../img/loading.gif') center / 9rem no-repeat;
     opacity: 0;
     visibility: hidden;
     transition: all 0.5s ease 0s;
@@ -53,7 +53,7 @@
 }
 
 .form__item {
-    border-bottom: #D49C6B solid 2px;
+    border-bottom: $yellow solid 2px;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     display: flex;
@@ -84,8 +84,8 @@
 
 .form__input {
     border: none;
-    background-color: #4B535A;
-    color: rgba(246, 250, 251, 1);
+    background-color: $grey_bg;
+    color: $light_tx;
     height: 2rem;
     border-radius: 0.5rem;
     min-width: 200px;
@@ -96,10 +96,10 @@
 .form__input_textarea {
     color: black;
     margin-top: 1rem;
-    background-color: rgba(246, 250, 251, 1);
+    background-color: $light_tx;
     min-width: 100%;
     min-height: 5rem;
-    border: #D49C6B solid 2px;
+    border: $yellow solid 2px;
     border-radius: 0.5rem;
     resize: vertical;
 }
@@ -138,10 +138,10 @@
 }
 
 .form__button, .file__button {
-    background-color: #4B535A;
-    border: #D49C6B solid 2px;
+    background-color: $grey_bg;
+    border: $yellow solid 2px;
     border-radius: 0.5rem;
-    color: rgba(246, 250, 251, 1);
+    color: $light_tx;
 }
 
 .form__button {
