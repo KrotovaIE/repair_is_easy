@@ -3,7 +3,7 @@
 }
 
 body {
-  color: #d49c6b;
+  color: #D49C6B;
 }
 
 .subtitle {
@@ -23,7 +23,7 @@ body {
   padding: 10%;
   border: 1px;
   border-radius: 5%;
-  background-color: #d49c6b;
+  background-color: #D49C6B;
   -webkit-box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
           box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
 }
@@ -101,7 +101,7 @@ a:visited {
   font-weight: 600;
 }
 .container__additional .colortext {
-  color: #d49c6b;
+  color: #D49C6B;
 }
 
 .img-fluid {
