@@ -29,8 +29,18 @@ body {
 }
 .container__services .card-title {
   color: #F6FAFB;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 1, 5em;
+  font-weight: 600;
 }
 .container__services .card-text {
+  color: #252B31;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+a:hover {
   color: #252B31;
 }
 
@@ -38,16 +48,8 @@ a:link {
   color: #F6FAFB;
 }
 
-a:active {
-  color: #F6FAFB;
-}
-
 a:visited {
   color: #F6FAFB;
-}
-
-a:hover {
-  color: #252B31;
 }
 
 .container_industrial {
@@ -61,10 +63,20 @@ a:hover {
           box-shadow: 7px 7px 15px rgba(13, 64, 92, 0.25);
 }
 
-.modal-title,
+.modal-title {
+  margin: 2%;
+  color: #252B31;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 1, 5em;
+  font-weight: 600;
+}
+
 .modal-list {
   margin: 2%;
   color: #252B31;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 500;
 }
 
 .modal-img {
@@ -84,6 +96,9 @@ a:hover {
   text-align: center;
   color: #252B31;
   padding: 3%;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 1, 5em;
+  font-weight: 600;
 }
 .container__additional .colortext {
   color: #d49c6b;
