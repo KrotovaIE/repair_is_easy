@@ -409,7 +409,7 @@ a:visited {
   -webkit-box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
           box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
   border-radius: 3%;
-  height: 8rem;
+  height: 10rem;
   width: 48rem;
 }
 .container__additional .additional-text {
@@ -456,6 +456,10 @@ main {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+}
+
+.feedback-items {
+  margin-left: 20%;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
