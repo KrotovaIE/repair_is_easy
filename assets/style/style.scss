@@ -14,12 +14,11 @@ body {
 
 // Катя услуги начало 
 
-.subtitle {
- color: $grey_tx;
+.title {
  text-align: center;
 }
 
-.subtitle__line {
+.title__line {
     margin: 8%;
 }
 
@@ -99,7 +98,7 @@ a:visited {
 }
 
 .container__additional {
-    margin-left: 26%;
+    margin-left: 25%;
     background-color: $light_tx;
     box-shadow: 4px 4px 4px $brown_shadow;
     border-radius: 3%;
@@ -129,6 +128,7 @@ a:visited {
 
 .img__btn {
     height: 6rem;
+    width: 6rem;
 }
 
 .feedback__line {
@@ -136,3 +136,56 @@ a:visited {
     padding: 2%;
 }
 // Отзывы конец
+
+// Катя медиазапросы начало
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .container__additional {
+        width: fit-content;
+        height: fit-content;
+       }
+       
+       .img__btn {
+        height: 2rem;
+        width: 2rem;
+    }
+    .card-text,
+    .title {
+        font-size: 1em;
+    }
+   
+}
+   
+
+@media screen and (max-width: 479px) {
+    .title {
+        text-align: center;
+    }
+
+    .container__additional {
+        width: 12rem;
+        height: fit-content;
+       }
+
+       .img__btn {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .carousel-item {
+        max-width: 11rem;
+    }
+    
+    .card-text,
+    .title {
+        font-size: 1em;
+    }
+
+   
+    .container__services {
+        width: 18rem;
+        padding: 10%;
+    }
+    
+}
+
+// Катя медиазапросы конец
