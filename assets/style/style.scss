@@ -222,6 +222,16 @@ main {
     .form {
         max-width: 500px;
     }
+
+    .container__additional {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .card-text,
+    .title {
+        font-size: 1em;
+    }
 }
 
 @media screen and (max-width: 479px) {
@@ -240,25 +250,7 @@ main {
     .form {
         max-width: 450px;
     }
-}
 
-
-// Катя медиазапросы начало
-@media screen and (min-width: 480px) and (max-width: 768px) {
-    .container__additional {
-        width: fit-content;
-        height: fit-content;
-       }
-       
-    .card-text,
-    .title {
-        font-size: 1em;
-    }
-   
-}
-   
-
-@media screen and (max-width: 479px) {
     .title {
         text-align: center;
     }
@@ -266,7 +258,7 @@ main {
     .container__additional {
         width: 12rem;
         height: fit-content;
-       }
+    }
 
     .carousel-item {
         max-width: 11rem;
@@ -277,13 +269,11 @@ main {
         font-size: 1em;
     }
 
-   
     .container__services {
         width: 18rem;
         padding: 10%;
     }
-    
 }
 
-// Катя медиазапросы конец
+
 
