@@ -1,0 +1,342 @@
+.whatsapp {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+  grid-template-columns: repeat(12, 1fr);
+  color: white;
+}
+
+.whatsapp-box {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 10;
+  grid-column: 2/12;
+  background: linear-gradient(266.53deg, #EA9E5C 7.87%, #D49C6B 89.68%);
+  border-radius: 20px;
+  height: 20vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+  grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.whatsapp-box > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.whatsapp-box > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+.whatsapp-box > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.whatsapp-box > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+}
+
+.whatsapp-box > *:nth-child(5) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+
+.whatsapp-box > *:nth-child(6) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 6;
+}
+
+.whatsapp-box > *:nth-child(7) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 7;
+}
+
+.whatsapp-box > *:nth-child(8) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 8;
+}
+
+.whatsapp-box > *:nth-child(9) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 9;
+}
+
+.whatsapp-box > *:nth-child(10) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 10;
+}
+
+.whatsapp-box > *:nth-child(11) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 11;
+}
+
+.whatsapp-box > *:nth-child(12) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 12;
+}
+
+.whatsapp-box > *:nth-child(13) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+
+.whatsapp-box > *:nth-child(14) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}
+
+.whatsapp-box > *:nth-child(15) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+}
+
+.whatsapp-box > *:nth-child(16) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+}
+
+.whatsapp-box > *:nth-child(17) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 5;
+}
+
+.whatsapp-box > *:nth-child(18) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 6;
+}
+
+.whatsapp-box > *:nth-child(19) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 7;
+}
+
+.whatsapp-box > *:nth-child(20) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 8;
+}
+
+.whatsapp-box > *:nth-child(21) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 9;
+}
+
+.whatsapp-box > *:nth-child(22) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 10;
+}
+
+.whatsapp-box > *:nth-child(23) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 11;
+}
+
+.whatsapp-box > *:nth-child(24) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 12;
+}
+
+.whatsapp-box > *:nth-child(25) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+
+.whatsapp-box > *:nth-child(26) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+}
+
+.whatsapp-box > *:nth-child(27) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+
+.whatsapp-box > *:nth-child(28) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 4;
+}
+
+.whatsapp-box > *:nth-child(29) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+}
+
+.whatsapp-box > *:nth-child(30) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 6;
+}
+
+.whatsapp-box > *:nth-child(31) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 7;
+}
+
+.whatsapp-box > *:nth-child(32) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 8;
+}
+
+.whatsapp-box > *:nth-child(33) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 9;
+}
+
+.whatsapp-box > *:nth-child(34) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 10;
+}
+
+.whatsapp-box > *:nth-child(35) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 11;
+}
+
+.whatsapp-box > *:nth-child(36) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 12;
+}
+
+.whatsapp-box_text {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 4;
+  grid-column: 2/6;
+  -ms-grid-row-align: center;
+      align-self: center;
+  font-weight: 700;
+  font-size: 1.6em;
+}
+
+.whatsapp-box_number {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 3;
+  grid-column: 9/12;
+  -ms-grid-row-align: center;
+      align-self: center;
+  padding-bottom: 20%;
+  line-height: 44px;
+  font-weight: 700;
+  font-size: 1.6em;
+}
+
+.whatsapp-box_img {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 8;
+  grid-column: 8;
+  -ms-grid-row-align: center;
+      align-self: center;
+  width: 6vw;
+}
+
+.whatsapp-box_link {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 3;
+  grid-column: 9/12;
+  -ms-grid-row-align: center;
+      align-self: center;
+  color: white;
+  letter-spacing: 0.05em;
+  font-size: 1.6em;
+}
+
+@media screen and (min-width: 480px) {
+  .whatsapp-box {
+    height: 15vh;
+  }
+
+  .whatsapp-box_text {
+    font-size: 0.8em;
+  }
+
+  .whatsapp-box_number {
+    font-size: 0.7em;
+  }
+
+  .whatsapp-box_link {
+    font-size: 0.8em;
+  }
+}
+@media screen and (min-width: 320px) {
+  .whatsapp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .whatsapp-box {
+    height: 11vh;
+    width: 80vw;
+  }
+
+  .whatsapp-box_text {
+    font-size: 0.5em;
+  }
+
+  .whatsapp-box_number {
+    font-size: 0.5em;
+    line-height: 10px;
+    -ms-flex-item-align: start;
+        -ms-grid-row-align: start;
+        align-self: start;
+  }
+
+  .whatsapp-box_link {
+    padding-top: 10%;
+    font-size: 0.52em;
+  }
+}
+@media screen and (max-width: 319px) {
+  .whatsapp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .whatsapp-box {
+    height: 10vh;
+    width: 90vw;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: ()[1fr 2fr 1fr];
+    grid-template-rows: repeat(1fr 2fr 1fr);
+  }
+
+  .whatsapp-box_text {
+    font-size: 0.5em;
+  }
+
+  .whatsapp-box_img {
+    -ms-grid-row: 2;
+    grid-row: 2;
+  }
+
+  .whatsapp-box_number {
+    -ms-flex-item-align: start;
+        -ms-grid-row-align: start;
+        align-self: start;
+    padding-bottom: 0%;
+    line-height: 0px;
+    font-size: 0.46em;
+  }
+
+  .whatsapp-box_link {
+    font-size: 0.5em;
+  }
+}
