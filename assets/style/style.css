@@ -1,4 +1,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+.projects {
+  padding: 7% 0% 5%;
+}
+
+.projects-title {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.project-text {
+  text-align: center;
+}
+
+.carousel {
+  margin-top: 5rem;
+}
+
+.carousel-inner {
+  text-align: center;
+}
+
+.carousel-item {
+  max-height: 80vh;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #252B31;
+}
+
+.text-white {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #F6FAFB;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #252B31;
+}
+
+.title-white {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #F6FAFB;
+}
+
 .wrapper {
   padding: 1rem;
 }
@@ -137,7 +189,8 @@
   max-width: 100%;
 }
 
-.form__button, .file__button {
+.form__button,
+.file__button {
   background-color: #4B535A;
   border: #D49C6B solid 2px;
   border-radius: 0.5rem;
@@ -186,11 +239,17 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  max-width: 100vw;
   height: 100vh;
   display: flex;
   flex-flow: column nowrap;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 main {
   flex-grow: 1;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
