@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -20,15 +20,107 @@
         </nav>
     </header>
     <main>
-        <section>
-            <div>Широкий спектр услуг</div>
-
+        <section class="main-page">
+            <div class="main-text-wrapper">
+                <div class="main-text">
+                    <h1 class="main-text__title">Широкий спектр<br> <span class="main-text__title_pink">ремонтных услуг</span><br> в Челябинске</h1>
+                    <p class="main-text__text">
+                        Бесплатный выезд на объект и составление сметы<br>
+                        Если что-то выполнено не качественно, переделаем за свой счёт<br>
+                        Персональный подход к каждому клиенту
+                    </p>
+                    <div class="main-text__order">Оставьте заявку и мы Вам перезвоним
+                        <img src="assets/img/finger.svg" alt="finger" class="main-text__img">
+                    </div>
+                </div>
+            </div>
             <!-- Анна -->
             <div>Форма</div>
+            <div class="form-wrapper">
+                <div class="form">
+                    <form action="#" id="form" class="form__body">
+                        <div class="form__title">ЗАПОЛНИТЕ ФОРМУ</div>
+                        <div class="form__item">
+                            <label for="formName" class="form__label">Ваше имя*</label>
+                            <input id="formName" type="text" name="name" class="form__input _req">
+                        </div>
+                        <div class="form__item">
+                            <label for="formEmail" class="form__label">E-mail*</label>
+                            <input id="formEmail" type="text" name="email" class="form__input _req _email">
+                        </div>
+                        <div class="form__item">
+                            <label for="formPhone" class="form__label">Номер телефона*</label>
+                            <input id="formPhone" type="text" name="phone" class="form__input _req _phone">
+                        </div>
+                        <div class="form__item form__item_textarea">
+                            <label for="formMessage" class="form__label">Опишите Вашу заявку</label>
+                            <textarea name="message" id="formMessage"
+                                class="form__input form__input_textarea"></textarea>
+                        </div>
+                        <div class="form__item form__item_loadImg">
+                            <div class="form__label">Прикрепить фото объекта</div>
+                            <div class="file">
+                                <div class="file__item">
+                                    <input id="formImage" accept=".jpg, .png, .gif" type="file" name="image"
+                                        class="file__input">
+                                    <div class="file__button">Выбрать</div>
+                                </div>
+                                <div id="formPreview" class="file__preview"></div>
+                            </div>
+                        </div>
+                        <button type="submit" class="form__button">Отправить заявку</button>
+                        <div id="message"></div>
+                    </form>
+                </div>
+            </div>
         </section>
 
         <section>
             <!-- Дарина -->
+            <div class="projects">
+                <div class="projects-title">
+                    <img src="assets/img/line.svg" alt="line">
+                    <p class="title">Наши работы</p>
+                    <img src="assets/img/line.svg" alt="line">
+                </div>
+                <p class="project-text text">Высокие стандарты при доступных ценах</p>
+                <div id="carousel" class="carousel slide" data-ride="carousel">
+                    <!-- Индикаторы -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                        <li data-target="#carousel" data-slide-to="3"></li>
+                        <li data-target="#carousel" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="img-fluid" src="assets/img/projects/project02.jpg" alt="project">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="assets/img/projects/project01.jpg" alt="project">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="assets/img/projects/project03.jpg" alt="project">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="assets/img/projects/project04.jpg" alt="project">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="assets/img/projects/project05.jpg" alt="project">
+                        </div>
+                    </div>
+                    <!-- Элементы управления -->
+                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                        <img class="img__btn" src="assets/img/btn_left.svg" alt="button left">
+                        <span class="sr-only"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                        <img class="img__btn" src="assets/img/btn_right.svg" alt="button right>
+                    <span class=" sr-only"></span>
+                    </a>
+                </div>
+            </div>
         </section>
 
         <section class="main-section__services">
@@ -318,6 +410,7 @@
         });
     </script>
     <!-- Скрипты для работы модальных окон -->
+    <script src="js/form.js"></script>
 </body>
 
 </html>

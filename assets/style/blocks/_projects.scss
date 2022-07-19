@@ -1,3 +1,26 @@
 .projects {
-    color: $grey_bg;
+    padding: 7% 0% 5%;
+}
+
+.projects-title {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.project-text {
+    text-align: center;
+}
+
+.carousel {
+    margin-top: 5rem;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-item {
+    max-height: 80vh;
 }
