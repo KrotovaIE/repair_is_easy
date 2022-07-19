@@ -254,6 +254,143 @@
   color: rgb(253, 83, 83);
 }
 
+.footer {
+  background: linear-gradient(45deg, #4B535A 16.25%, #354049 76.77%);
+}
+
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: minmax(300px, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  padding: 3rem 8%;
+}
+
+.footer__corner-top {
+  grid-area: 1/1/2/2;
+  justify-self: end;
+}
+
+.footer__title {
+  grid-area: 2/1/3/2;
+}
+
+.footer__title-text {
+  margin-bottom: 0;
+}
+
+.footer__phone {
+  grid-area: 3/1/4/2;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.phone-img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.phone-text {
+  margin-left: 2%;
+  margin-bottom: 0;
+}
+
+.a__phone {
+  color: #F6FAFB;
+}
+
+.a__phone:hover {
+  color: #F6FAFB;
+}
+
+.footer__time {
+  grid-area: 3/1/4/2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer__mail {
+  grid-area: 4/1/5/2;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.mail-img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.mail-text {
+  margin-left: 2%;
+  margin-bottom: 0;
+  line-height: 25px;
+}
+
+.a__mail {
+  text-decoration: none;
+  color: #F6FAFB;
+}
+.a__mail:hover {
+  color: #F6FAFB;
+}
+
+.footer__logo {
+  grid-area: 4/1/5/2;
+  justify-self: end;
+}
+
+.footer__corner-bottom {
+  grid-area: 5/1/6/2;
+  align-self: end;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .footer-wrapper {
+    grid-template-rows: repeat(7, 1fr);
+    padding: 3rem 8%;
+  }
+  .footer__phone {
+    grid-area: 4/1/5/2;
+  }
+  .footer__time {
+    grid-area: 3/1/4/2;
+    justify-content: flex-start;
+  }
+  .footer__mail {
+    grid-area: 5/1/6/2;
+  }
+  .footer__logo {
+    grid-area: 6/1/7/2;
+    justify-self: start;
+  }
+  .footer__corner-bottom {
+    grid-area: 7/1/8/2;
+  }
+}
+@media screen and (max-width: 479px) {
+  .footer-wrapper {
+    grid-template-rows: repeat(7, 1fr);
+    padding: 3rem 8%;
+  }
+  .footer__phone {
+    grid-area: 4/1/5/2;
+  }
+  .footer__time {
+    grid-area: 3/1/4/2;
+    justify-content: flex-start;
+  }
+  .footer__mail {
+    grid-area: 5/1/6/2;
+  }
+  .footer__logo {
+    grid-area: 6/1/7/2;
+    justify-self: start;
+  }
+  .footer__corner-bottom {
+    grid-area: 7/1/8/2;
+  }
+}
 .text {
   font-weight: 500;
   font-size: 1rem;
