@@ -9,7 +9,6 @@
 @import "blocks/form";
 
 
-
 .text {
     font-weight: 500;
     font-size: 1rem;
@@ -41,10 +40,67 @@ body {
     height: 100vh;
     display: flex;
     flex-flow: column nowrap;
-    padding-left: 8%;
-    padding-right: 8%;
+    // padding-left: 8%;
+    // padding-right: 8%;
 }
 
 main {
     flex-grow: 1;
+}
+
+@media screen and (min-width: 1280px) {}
+
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .main-page {
+        display: flex;
+        flex-direction: column;
+        padding: 0 4%;
+    }
+
+    .form-wrapper,
+    .main-text-wrapper {
+        padding: 0;
+        margin: 3rem auto;
+    }
+
+    .form {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .main-page {
+        display: flex;
+        flex-direction: column;
+        padding: 0 4%;
+    }
+
+    .form-wrapper,
+    .main-text-wrapper {
+        padding: 0;
+        margin: 3rem auto;
+    }
+
+    .form {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .main-page {
+        display: flex;
+        flex-direction: column;
+        padding: 0 4%;
+    }
+
+    .form-wrapper,
+    .main-text-wrapper {
+        padding: 0;
+        margin: 3rem auto;
+    }
+
+    .form {
+        max-width: 450px;
+    }
 }

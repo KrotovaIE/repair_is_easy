@@ -1,5 +1,5 @@
-.wrapper {
-    padding: 1rem;
+.form-wrapper {
+    padding: 1rem 8% 1rem 0;
 }
 
 .form {
@@ -33,7 +33,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background:  $yellow url('../img/loading.gif') center / 9rem no-repeat;
+    background: $yellow url('../img/loading.gif') center / 9rem no-repeat;
     opacity: 0;
     visibility: hidden;
     transition: all 0.5s ease 0s;
@@ -46,7 +46,7 @@
 
 .form__title {
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 1.1em;
     line-height: 1.8em;
     letter-spacing: 0.05em;
     text-align: center;
@@ -69,15 +69,15 @@
     border: none;
 }
 
-.form__item_loadImg{
+.form__item_loadImg {
     display: flex;
     align-items: baseline;
     border: none;
 }
 
 .form__label {
-    font-weight: 500;
-    font-size: 0.875em;
+    font-weight: 300;
+    font-size: 0.6em;
     line-height: 1.06em;
     padding-top: 1rem;
 }
@@ -88,8 +88,7 @@
     color: $light_tx;
     height: 2rem;
     border-radius: 0.5rem;
-    min-width: 200px;
-    font-size: 0.7em;
+    font-size: 0.6em;
     padding-left: 1rem;
 }
 
@@ -128,7 +127,7 @@
 }
 
 .file__preview {
-    display:inline-block;
+    display: inline-block;
     max-width: 100px;
     padding: 0.5rem 0 0 0;
 }
@@ -137,7 +136,8 @@
     max-width: 100%;
 }
 
-.form__button, .file__button {
+.form__button,
+.file__button {
     background-color: $grey_bg;
     border: $yellow solid 2px;
     border-radius: 0.5rem;
@@ -149,14 +149,14 @@
     min-width: 100%;
     min-height: 3rem;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.8em;
     cursor: pointer;
     box-shadow: 0.4rem 0.4rem 0.7rem rgba(0, 0, 0, 0.25);
 }
 
 .file__button {
     font-weight: 400;
-    font-size: 0.8em;
+    font-size: 0.65em;
     padding: 0.6em;
     box-shadow: 0.4rem 0.4rem 0.7rem rgba(0, 0, 0, 0.25);
 }
@@ -167,13 +167,13 @@
 .form__input:hover {
     box-shadow: 0 0.3rem 0.9rem rgba(78, 55, 55, 0.37),
         inset 0 0.3rem 0.9rem rgba(255, 255, 255, 0.503);
-        transition: 1s ease 0s;
+    transition: 1s ease 0s;
 }
 
 ._error {
     box-shadow: 0 0.3rem 0.9rem rgba(78, 55, 55, 0.37),
         inset 0 0.3rem 1.9rem rgba(255, 6, 6, 0.503);
-        transition: 1s ease 0s;
+    transition: 1s ease 0s;
 }
 
 #message {
