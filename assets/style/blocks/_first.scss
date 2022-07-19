@@ -1,0 +1,42 @@
+.main-page {
+    background: url("/assets/img/main_photo.png") no-repeat left top, linear-gradient(90.63deg, #4B535A 7.31%, #354049 71.98%);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr minmax(300px, 600px);
+    grid-template-rows: 1fr;
+}
+
+.main-text-wrapper {
+    padding: 4rem 1rem 8% 8%;
+}
+
+.main-text {
+}
+
+.main-text__title {
+    font-weight: 800;
+    font-size: 3em;
+    color: $light_tx;
+    text-shadow: 0.4rem 0.4rem 0.7rem rgba(0, 0, 0, 0.291);
+}
+
+.main-text__title_pink{
+    color: $pink_tx;
+}
+.main-text__text {
+    padding: 2rem 0;
+    color: $light_tx;
+    font-size: 0.8em;
+    text-shadow: 0.4rem 0.4rem 0.7rem rgba(0, 0, 0, 0.291);
+    line-height: 2em;
+}
+.main-text__order {
+    font-weight: 600;
+    color: $light_tx;
+    font-size: 1em;
+    text-shadow: 0.4rem 0.4rem 0.7rem rgba(0, 0, 0, 0.25);
+    line-height: 5em;
+}
+.main-text__img {
+    text-shadow: 0.4rem 0.4rem 0.7rem rgba(0, 0, 0, 0.25);
+}
