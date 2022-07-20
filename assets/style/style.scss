@@ -41,17 +41,17 @@ body {
 // Катя услуги начало 
 
 .title {
- text-align: center;
+    text-align: center;
 }
 
 .title__line {
     margin: 8%;
 }
 
- .container__services{
+.container__services {
 
     margin-left: 15%;
-  
+
     .card-body {
         margin: 13%;
         padding: 10%;
@@ -64,7 +64,7 @@ body {
     .card-title {
         color: $light_tx;
         font-family: 'Montserrat', Arial, sans-serif;
-        font-size: 1,5em;
+        font-size: 1, 5em;
         font-weight: 600;
     }
 
@@ -75,11 +75,11 @@ body {
         font-weight: 500;
     }
 
-    
+
 }
 
 a:hover {
-    color: $grey_tx; 
+    color: $grey_tx;
 }
 
 a:link {
@@ -105,7 +105,7 @@ a:visited {
     margin: 2%;
     color: $grey_tx;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 1,5em;
+    font-size: 1, 5em;
     font-weight: 600;
 }
 
@@ -136,9 +136,10 @@ a:visited {
         color: $grey_tx;
         padding: 3%;
         font-family: 'Montserrat', Arial, sans-serif;
-        font-size: 1,5em;
+        font-size: 1, 5em;
         font-weight: 600;
     }
+
     .colortext {
         color: $yellow;
     }
@@ -161,13 +162,13 @@ a:visited {
     margin-left: 40%;
     padding: 2%;
 }
+
 // Отзывы конец
 
 
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
     max-width: 100vw;
     height: 100vh;
     display: flex;
@@ -178,6 +179,7 @@ body {
 
 main {
     flex-grow: 1;
+
 }
 
 .feedback-items {
@@ -263,7 +265,7 @@ main {
     .carousel-item {
         max-width: 11rem;
     }
-    
+
     .card-text,
     .title {
         font-size: 1em;
@@ -274,6 +276,3 @@ main {
         padding: 10%;
     }
 }
-
-
-
