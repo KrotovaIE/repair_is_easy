@@ -89,13 +89,70 @@
 .carousel-item {
   max-height: 80vh;
 }
+/* Давайте воплотим ваши мечты в реальность */
+.dream
+{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+  font-weight: 700;
+  align-items: center;
+}
+.dream_text
+{
+  color:#252B31;
+  padding-bottom: 2%;
+}
 
+.dream_img
+{
+  width: 3%;
+}
+/* Адаптив "Давайте воплотим ваши мечты в реальность" */
+@media screen and (min-width: 769px) and (max-width: 1279px)
+{
+  .dream
+  {
+    font-size: 1.7em;
+  }
+  .dream_img
+{
+  width: 5%;
+}
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .dream_text
+  {
+    font-size: 0.6em;
+
+  }
+  .dream_img
+{
+  width: 4%;
+}
+}
+@media screen and (max-width: 479px) {
+  .dream
+{
+font-size: 0.6em;
+}
+.dream_img
+{
+  width: 4%;
+}
+}
+/* Конец адаптива "Давайте воплотим ваши мечты в реальность" */
+
+/* Форма Whatsapp */
 .whatsapp {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[12];
   grid-template-columns: repeat(12, 1fr);
   color: white;
+  padding-bottom:5%;
 }
 
 .whatsapp-box {
@@ -111,6 +168,7 @@
   grid-template-columns: repeat(12, 1fr);
   -ms-grid-rows: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  
 }
 
 .whatsapp-box>*:nth-child(1) {
@@ -342,18 +400,24 @@
   letter-spacing: 0.05em;
   font-size: 1.6em;
 }
+/* Конец формы Whatsapp */
+
+/* Адаптив Whatsapp  */
 
 @media screen and (min-width: 769px) and (max-width: 1250px) {
+
   .whatsapp-box_text {
     font-size: 1em;
   }
 
   .whatsapp-box_number {
     font-size: 1em;
+    padding-bottom: 30%;
   }
 
   .whatsapp-box_link {
     font-size: 1em;
+    
   }
 }
 
@@ -385,6 +449,7 @@
   .whatsapp-box_number {
     font-size: 0.7em;
     padding-bottom: 40%;
+    
   }
 
   .whatsapp-box_link {
@@ -409,10 +474,12 @@
     display: grid;
     -ms-grid-rows: ()[1fr 2fr 1fr];
     grid-template-rows: repeat(1fr 2fr 1fr);
+    
   }
 
   .whatsapp-box_text {
     font-size: 0.5em;
+    margin: auto;
   }
 
   .whatsapp-box_img {
@@ -421,18 +488,19 @@
   }
 
   .whatsapp-box_number {
-    -ms-flex-item-align: start;
-    -ms-grid-row-align: start;
-    align-self: start;
-    padding-bottom: 0%;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    padding-bottom: 20%;
     line-height: 0px;
-    font-size: 0.46em;
+    font-size: 0.4em;
   }
 
   .whatsapp-box_link {
     font-size: 0.5em;
   }
 }
+/* Конец адаптива Whatsapp */
 
 .form-wrapper {
   padding: 1rem 8% 1rem 0;
