@@ -1076,7 +1076,7 @@ body {
 }
 
 main {
-  font-size: 24px;
+  font-size: 1.6em;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
