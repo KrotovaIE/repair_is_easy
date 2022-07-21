@@ -366,7 +366,7 @@ main {
 
 /* Блок "Наши работы",галерея, начало */
 .projects {
-  padding: 7% 0% 5%;
+  padding: 7% 8% 5%;
 }
 
 .projects-title {
@@ -1429,9 +1429,9 @@ body {
 
 /* Конец Адаптива блок "Услуги" */
 
-.img-fluid {
+/* .img-fluid {
   margin-left: 27%;
-}
+} */
 
 .img__btn {
   height: 6rem;
