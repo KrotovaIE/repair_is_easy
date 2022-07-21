@@ -1093,7 +1093,7 @@ a:visited {
 }
 
 .container__additional {
-  margin-left: 25%;
+  margin:auto;
   background-color: #F6FAFB;
   -webkit-box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
   box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
