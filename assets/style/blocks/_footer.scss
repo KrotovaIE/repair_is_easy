@@ -3,9 +3,9 @@
 }
 .footer-wrapper {
     display: grid;
-    grid-template-columns: minmax(240px, 1fr);
-    grid-template-rows: repeat(5, 0.1fr);
-    padding: 1rem 8%;
+    grid-template-columns: minmax(300px, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    padding: 3rem 8%;
 }
 
 .footer__corner-top {
@@ -88,8 +88,8 @@
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
     .footer-wrapper {
-        grid-template-rows: repeat(7, 0.8fr);
-        padding: 1rem 8%;
+        grid-template-rows: repeat(7, 1fr);
+        padding: 3rem 8%;
     }
 
     .footer__phone {
@@ -117,8 +117,8 @@
 
 @media screen and (max-width: 479px) {
     .footer-wrapper {
-        grid-template-rows: repeat(7, 0.8fr);
-        padding: 1rem 8%;
+        grid-template-rows: repeat(7, 1fr);
+        padding: 3rem 8%;
     }
 
     .footer__phone {
@@ -142,11 +142,4 @@
     .footer__corner-bottom {
         grid-area: 7/1/8/2;
     }
-
-    .footer__corner-top, 
-    .footer__corner-bottom,
-    .footer__line {
-        display: none;
-    }
-
 }
