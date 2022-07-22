@@ -705,7 +705,7 @@ main {
   .main-page {
     display: flex;
     flex-direction: column;
-    padding-bottom: 4%;
+    padding: 3%;
   }
   .main-text-wrapper {
     padding: 0 5%;
@@ -717,7 +717,7 @@ main {
     min-height: -webkit-fit-content;
     min-height: -moz-fit-content;
     min-height: fit-content;
-    padding: 5%;
+    padding: 8%;
   }
   #message {
     padding: 0;

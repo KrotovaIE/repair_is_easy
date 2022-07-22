@@ -240,7 +240,7 @@ main {
     .main-page {
         display: flex;
         flex-direction: column;
-        padding-bottom: 4%;
+        padding: 3%;
     }
 
     .main-text-wrapper{
@@ -253,7 +253,7 @@ main {
 
     .form__body {
         min-height: fit-content;
-        padding: 5%;
+        padding: 8%;
     }
 
     #message{
