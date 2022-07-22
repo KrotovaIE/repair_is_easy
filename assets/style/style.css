@@ -807,6 +807,9 @@
       align-self: end;
 }
 
+.feedback-items {
+  margin-left: 26%;
+}
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .footer-wrapper {
     -ms-grid-rows: (1fr)[7];
