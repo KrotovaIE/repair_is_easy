@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Raleway:wght@100&display=swap");
 .main-page {
   background: url("/assets/img/main_photo.png") no-repeat left top, linear-gradient(90.63deg, #4B535A 7.31%, #354049 71.98%);
   background-size: cover;
@@ -204,7 +205,7 @@
   background: linear-gradient(144.09deg, #4B535A 22.67%, #354049 112.84%), linear-gradient(0deg, #D49C6B, #D49C6B);
   border-radius: 0.625rem;
   padding: 3% 12%;
-  min-height: 590px;
+  min-height: 400px;
   color: #F6FAFB;
   position: relative;
 }
@@ -673,7 +674,7 @@ main {
     margin: 3rem auto;
   }
   .form {
-    width: 500px;
+    width: 700px;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 768px) {
@@ -688,7 +689,7 @@ main {
     margin: 3rem auto;
   }
   .form {
-    max-width: 500px;
+    min-width: 470px;
   }
   .container__additional {
     width: -webkit-fit-content;
@@ -707,15 +708,50 @@ main {
   .main-page {
     display: flex;
     flex-direction: column;
-    padding: 0 4%;
+    padding-bottom: 4%;
+  }
+  .main-text-wrapper {
+    padding: 0 5%;
+  }
+  .form {
+    border: 0.3rem solid #D49C6B;
+  }
+  .form__body {
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    padding: 4%;
+  }
+  #message {
+    padding: 0;
+    font-size: 0.6em;
+  }
+  .form__input_textarea {
+    margin-top: 0.6rem;
+    min-height: 3rem;
+  }
+  .file__button, .form__button {
+    font-size: 0.6em;
   }
   .form-wrapper,
 .main-text-wrapper {
     padding: 0;
-    margin: 3rem auto;
+    margin: 1rem auto;
   }
   .form {
-    max-width: 450px;
+    max-width: 470px;
+  }
+  .form-wrapper {
+    margin: 0;
+  }
+  .form__label {
+    padding-top: 0rem;
+  }
+  .form__title {
+    font-size: 0.8em;
+  }
+  .file {
+    line-height: normal;
   }
   .title {
     text-align: center;
