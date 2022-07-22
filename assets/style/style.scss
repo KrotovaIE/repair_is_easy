@@ -49,6 +49,120 @@ main {
   flex-grow: 1;
 }
 
+// Катя услуги начало 
+
+.title {
+    text-align: center;
+}
+
+.title__line {
+    margin: 8%;
+}
+
+.container__services {
+    height: 60%;
+    width: 80%;
+    margin-left: 17%;
+
+    .card-body {
+        margin: 13%;
+        padding: 10%;
+        border: 1px;
+        border-radius: 5%;
+        background-color: $yellow;
+        box-shadow: 4px 4px 4px $brown_shadow;
+    }
+
+    .card-title {
+        color: $light_tx;
+        font-family: 'Montserrat', Arial, sans-serif;
+        font-size: 1, 5em;
+        font-weight: 600;
+    }
+
+    .card-text {
+        color: $grey_tx;
+        font-family: 'Montserrat', Arial, sans-serif;
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+
+}
+
+a:hover {
+    color: $grey_tx;
+}
+
+a:link {
+    color: $light_tx;
+}
+
+a:visited {
+    color: $light_tx;
+}
+
+
+.container_industrial {
+    height: 40%;
+    width: 40%;
+    margin-left: 22%;
+}
+
+.modal-content {
+    border: 1px $light_tx;
+    border-radius: 2%;
+    box-shadow: 7px 7px 15px $grey_shadow;
+}
+
+.modal-title {
+    margin: 2%;
+    color: $grey_tx;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 1, 5em;
+    font-weight: 600;
+}
+
+.modal-list {
+    margin: 2%;
+    color: $grey_tx;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+
+
+.modal-img {
+    padding: 2%;
+}
+
+.container__additional {
+    height: 30%;
+    width: 50%;
+    margin-left: 25%;
+    background-color: $light_tx;
+    box-shadow: 4px 4px 4px $brown_shadow;
+    border-radius: 3%;
+    height: 10rem;
+    width: 48rem;
+
+    .additional-text {
+        text-align: center;
+        color: $grey_tx;
+        padding: 3%;
+        font-family: 'Montserrat', Arial, sans-serif;
+        
+        font-weight: 600;
+    }
+
+    .colortext {
+        color: $yellow;
+    }
+}
+
+// Катя услуги конец
+
 
 @media screen and (min-width: 1280px) {}
 
