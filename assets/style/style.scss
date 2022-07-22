@@ -202,7 +202,7 @@ main {
     }
 
     .form {
-        width: 500px;
+        width: 700px;
     }
 }
 
@@ -220,7 +220,7 @@ main {
     }
 
     .form {
-        max-width: 500px;
+        min-width: 470px;
     }
 
     .container__additional {
@@ -238,17 +238,61 @@ main {
     .main-page {
         display: flex;
         flex-direction: column;
-        padding: 0 4%;
+        padding-bottom: 4%;
+    }
+
+    .main-text-wrapper{
+        padding: 0 5%;
+    }
+
+    .form {
+        border: 0.3rem solid $yellow;
+    }
+
+    .form__body {
+        min-height: fit-content;
+        padding: 4%;
+    }
+
+    #message{
+        padding: 0;
+        font-size: 0.6em;
+    }
+
+    .form__input_textarea {
+        margin-top: 0.6rem;
+        min-height: 3rem;
+    }
+
+    .file__button, .form__button{
+        font-size: 0.6em;
+        
     }
 
     .form-wrapper,
     .main-text-wrapper {
         padding: 0;
-        margin: 3rem auto;
+        margin: 1rem auto;
     }
 
     .form {
-        max-width: 450px;
+        max-width: 470px;
+    }
+
+    .form-wrapper{
+        margin: 0;
+    }
+
+    .form__label {
+        padding-top: 0rem;
+    }
+
+    .form__title {
+        font-size: 0.8em;
+    }
+
+    .file {
+        line-height: normal;
     }
 
     .title {
