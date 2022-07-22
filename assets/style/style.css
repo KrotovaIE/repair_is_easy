@@ -913,25 +913,25 @@
 }
 .text {
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 2rem;
   color: #252B31;
 }
 
 .text-white {
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 2rem;
   color: #F6FAFB;
 }
 
 .title {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #252B31;
 }
 
 .title-white {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #F6FAFB;
 }
 
@@ -1035,7 +1035,6 @@ a:visited {
   color: #252B31;
   padding: 3%;
   font-family: "Montserrat", Arial, sans-serif;
-  font-size: 1, 5em;
   font-weight: 600;
 }
 .container__additional .colortext {
@@ -1043,8 +1042,8 @@ a:visited {
 }
 
 .img__btn {
-  height: 6rem;
-  width: 6rem;
+  height: 3rem;
+  width: 3rem;
 }
 
 .feedback__line {
@@ -1071,9 +1070,6 @@ main {
           flex-grow: 1;
 }
 
-.feedback-items {
-  margin-left: 27%;
-}
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
   .main-page {
@@ -1132,6 +1128,7 @@ main {
 .title {
     font-size: 1em;
   }
+
 }
 @media screen and (max-width: 479px) {
   .main-page {
@@ -1222,7 +1219,13 @@ main {
   }
 
   .container__services {
-    width: 18rem;
+    width: 90%;
+    height: 40%;
     padding: 10%;
+  }
+
+  .container_industrial {
+    width: 90%;
+    height: 40%;
   }
 }
