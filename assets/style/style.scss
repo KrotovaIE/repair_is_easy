@@ -49,8 +49,9 @@ body {
 }
 
 .container__services {
-
-    margin-left: 15%;
+    height: 60%;
+    width: 80%;
+    margin-left: 17%;
 
     .card-body {
         margin: 13%;
@@ -92,6 +93,8 @@ a:visited {
 
 
 .container_industrial {
+    height: 40%;
+    width: 40%;
     margin-left: 22%;
 }
 
@@ -124,6 +127,8 @@ a:visited {
 }
 
 .container__additional {
+    height: 30%;
+    width: 50%;
     margin-left: 25%;
     background-color: $light_tx;
     box-shadow: 4px 4px 4px $brown_shadow;
@@ -149,9 +154,6 @@ a:visited {
 
 
 // Отзывы начало
-.img-fluid {
-    margin-left: 27%;
-}
 
 .img__btn {
     height: 6rem;
