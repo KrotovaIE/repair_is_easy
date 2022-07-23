@@ -24,13 +24,13 @@
 
 .title {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: $grey_tx;
 }
 
 .title-white {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: $light-tx;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 main {
-  flex-grow: 1;
+    flex-grow: 1;
 }
 
 // Катя услуги начало 
@@ -102,9 +102,9 @@ a:visited {
     color: $light_tx;
 }
 
-    .container_industrial {
-        height: 40%;
-        width: 40%;
+.container_industrial {
+    height: 40%;
+    width: 40%;
     margin-left: 22%;
 }
 
@@ -137,21 +137,21 @@ a:visited {
 }
 
 .container__additional {
-    margin-left: 25%;
+    // margin-left: 25%;
     background-color: $light_tx;
     box-shadow: 4px 4px 4px $brown_shadow;
     border-radius: 3%;
-    height: 10rem;
-    width: 48rem;
+    // height: 10rem;
+    // width: 48rem;
 
-    .additional-text {
-        text-align: center;
-        color: $grey_tx;
-        padding: 3%;
-        font-family: 'Montserrat', Arial, sans-serif;
-        
-        font-weight: 600;
-    }
+    // .additional-text {
+    //     text-align: center;
+    //     color: $grey_tx;
+    //     padding: 3%;
+    //     font-family: 'Montserrat', Arial, sans-serif;
+
+    //     font-weight: 600;
+    // }
 
     .colortext {
         color: $yellow;
@@ -164,7 +164,7 @@ a:visited {
 // Отзывы начало
 
 .feedback-items {
-  margin-right: 27%;
+    margin-right: 27%;
 }
 
 .img__btn {
@@ -175,6 +175,7 @@ a:visited {
 .feedback__line {
     margin-left: 40%;
     padding: 2%;
+    width: 30%;
 }
 
 // Отзывы конец
@@ -239,10 +240,10 @@ main {
         min-width: 470px;
     }
 
-    .container__additional {
-        width: fit-content;
-        height: fit-content;
-    }
+    // .container__additional {
+    //     width: fit-content;
+    //     height: fit-content;
+    // }
 
     .card-text,
     .title {
@@ -257,7 +258,7 @@ main {
         padding: 3%;
     }
 
-    .main-text-wrapper{
+    .main-text-wrapper {
         padding: 0 5%;
     }
 
@@ -270,7 +271,7 @@ main {
         padding: 8%;
     }
 
-    #message{
+    #message {
         padding: 0;
         font-size: 0.6em;
     }
@@ -280,9 +281,10 @@ main {
         min-height: 3rem;
     }
 
-    .file__button, .form__button{
+    .file__button,
+    .form__button {
         font-size: 0.6em;
-        
+
     }
 
     .form-wrapper,
@@ -296,7 +298,7 @@ main {
         font-size: 1.3em;
     }
 
-    .form-wrapper{
+    .form-wrapper {
         margin: 0;
     }
 
@@ -316,10 +318,10 @@ main {
         text-align: center;
     }
 
-    .container__additional {
-        width: 12rem;
-        height: fit-content;
-    }
+    // .container__additional {
+    //     width: 12rem;
+    //     height: fit-content;
+    // }
 
     .carousel-item {
         max-width: 11rem;
@@ -334,5 +336,5 @@ main {
         width: 18rem;
         padding: 10%;
     }
-    
+
 }

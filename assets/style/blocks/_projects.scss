@@ -19,8 +19,13 @@
 
 .carousel-inner {
     text-align: center;
+    max-height: 80vh;
 }
 
-.carousel-item {
-    max-height: 80vh;
+.projects-photo {
+    height: 100%;
+}
+
+.line {
+    width: 24%;
 }
