@@ -963,7 +963,9 @@ main {
 }
 
 .container__services {
-  margin-left: 15%;
+  height: 40%;
+  width: 80%;
+  margin-left: 17%;
 }
 .container__services .card-body {
   margin: 13%;
