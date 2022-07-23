@@ -3,9 +3,9 @@
 }
 .footer-wrapper {
     display: grid;
-    grid-template-columns: minmax(300px, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    padding: 3rem 8%;
+    grid-template-columns: minmax(240px, 1fr);
+    grid-template-rows: repeat(5, 0.1fr);
+    padding: 1rem 8%;
 }
 
 .footer__corner-top {
@@ -33,9 +33,13 @@
     height: 1.5rem;
 }
 
+// текст
 .phone-text {
     margin-left: 2%;
     margin-bottom: 0;
+    color: $light_tx;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .a__phone {
@@ -46,11 +50,16 @@
     color: $light_tx;
 }
 
+// текст
+
 .footer__time {
     grid-area: 3/1/4/2;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    color: $light_tx;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .footer__mail {
@@ -62,10 +71,15 @@
     width: 1.5rem;
     height: 1.5rem;
 }
+
+// текст
 .mail-text {
     margin-left: 2%;
     margin-bottom: 0;
     line-height: 25px;
+    color: $light_tx;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .a__mail{
@@ -88,8 +102,8 @@
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
     .footer-wrapper {
-        grid-template-rows: repeat(7, 1fr);
-        padding: 3rem 8%;
+        grid-template-rows: repeat(7, 0.8fr);
+        padding: 1rem 8%;
     }
 
     .footer__phone {
@@ -117,8 +131,8 @@
 
 @media screen and (max-width: 479px) {
     .footer-wrapper {
-        grid-template-rows: repeat(7, 1fr);
-        padding: 3rem 8%;
+        grid-template-rows: repeat(7, 0.8fr);
+        padding: 1rem 8%;
     }
 
     .footer__phone {
@@ -139,7 +153,9 @@
         justify-self: start;
     }
     
-    .footer__corner-bottom {
-        grid-area: 7/1/8/2;
+    .footer__corner-bottom,
+    .footer__corner-top,
+    .footer__line {
+        display: none;
     }
 }
