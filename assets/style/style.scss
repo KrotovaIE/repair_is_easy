@@ -60,8 +60,9 @@ main {
 }
 
 .container__services {
-
-    margin-left: 15%;
+    height: 40%;
+    width: 80%;
+    margin-left: 17%;
 
     .card-body {
         margin: 13%;
@@ -161,13 +162,14 @@ a:visited {
 
 
 // Отзывы начало
-.img-fluid {
-    margin-left: 27%;
+
+.feedback-items {
+  margin-right: 27%;
 }
 
 .img__btn {
-    height: 6rem;
-    width: 6rem;
+    height: 4rem;
+    width: 4rem;
 }
 
 .feedback__line {
@@ -332,4 +334,5 @@ main {
         width: 18rem;
         padding: 10%;
     }
+    
 }
