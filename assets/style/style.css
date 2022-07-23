@@ -711,8 +711,7 @@ main {
   .form {
     min-width: 470px;
   }
-  .card-text,
-.title {
+  .card-text {
     font-size: 1em;
   }
 }
