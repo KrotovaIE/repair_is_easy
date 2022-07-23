@@ -10,6 +10,8 @@
     margin: 0 auto;
     overflow: hidden;
     box-shadow: 0.4rem 0.4rem 0.7rem rgba(0, 0, 0, 0.25);
+    font-size: 1.5em;
+    font-weight: 300;
 }
 
 .form * {
@@ -21,7 +23,7 @@
         linear-gradient(0deg, $yellow, $yellow);
     border-radius: 0.625rem;
     padding: 3% 12%;
-    min-height: 590px;
+    min-height: 400px;
     color: $light_tx;
     position: relative;
 }
