@@ -49,7 +49,15 @@
   font-size: $fsapp;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1250px) {
+
+@media screen and (min-width: 1280px) and (max-width: 1500px)
+{
+  .whatsapp-box_number {
+  margin-bottom: 20%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
 
   .whatsapp-box_text {
     font-size: $adaptmax;
