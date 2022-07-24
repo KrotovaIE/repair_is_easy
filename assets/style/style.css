@@ -68,7 +68,6 @@
   max-height: 80vh;
 }
 
-<<<<<<< HEAD
 .projects-photo {
   height: 100%;
 }
@@ -82,33 +81,15 @@
   padding-right: 8%;
 }
 
-.main-section__feedback {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.dream {
-  margin: 5% 8% 5%;
-  text-align: center;
-}
-
-=======
 /* Блок "Давайте воплотим ваши мечты в реальность" начало */
 .dream {
   padding-top: 5%;
   padding-bottom: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   font-size: 2em;
   font-weight: 700;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .dream_text {
@@ -126,7 +107,6 @@
   .dream {
     font-size: 1.7em;
   }
-
   .dream_img {
     width: 5%;
   }
@@ -135,7 +115,6 @@
   .dream_text {
     font-size: 0.6em;
   }
-
   .dream_img {
     width: 4%;
   }
@@ -144,22 +123,15 @@
   .dream {
     font-size: 0.6em;
   }
-
   .dream_img {
     width: 4%;
   }
 }
 /* Конец адаптива "Давайте воплотим ваши мечты в реальность" */
->>>>>>> master
 .whatsapp {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-<<<<<<< HEAD
-  color: white;
-  margin-bottom: 5%;
-=======
   color: #F6FAFB;
->>>>>>> master
 }
 
 .whatsapp-box {
@@ -200,16 +172,9 @@
 .whatsapp-box_link {
   grid-row: 2;
   grid-column: 9/12;
-<<<<<<< HEAD
   align-self: center;
-  color: white;
-  border-bottom: 1px solid white;
-=======
-  -ms-grid-row-align: center;
-      align-self: center;
   color: #F6FAFB;
   text-decoration: underline;
->>>>>>> master
   letter-spacing: 0.05em;
   font-size: 1.6em;
 }
@@ -715,9 +680,19 @@ a:visited {
 }
 
 .container__additional {
+  margin-left: 25%;
   background-color: #F6FAFB;
   box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
   border-radius: 3%;
+  height: 10rem;
+  width: 48rem;
+}
+.container__additional .additional-text {
+  text-align: center;
+  color: #252B31;
+  padding: 3%;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 600;
 }
 .container__additional .colortext {
   color: #D49C6B;
@@ -783,9 +758,6 @@ main {
   .form {
     min-width: 470px;
   }
-<<<<<<< HEAD
-  .card-text {
-=======
   .container__additional {
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -794,9 +766,7 @@ main {
     height: -moz-fit-content;
     height: fit-content;
   }
-  .card-text,
-.title {
->>>>>>> master
+  .card-text {
     font-size: 1em;
   }
 }
@@ -854,15 +824,12 @@ main {
   .title {
     text-align: center;
   }
-<<<<<<< HEAD
-=======
   .container__additional {
     width: 12rem;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
->>>>>>> master
   .carousel-item {
     max-width: 11rem;
   }
@@ -874,8 +841,4 @@ main {
     width: 18rem;
     padding: 10%;
   }
-<<<<<<< HEAD
 }/*# sourceMappingURL=style.css.map */
-=======
-}
->>>>>>> master
