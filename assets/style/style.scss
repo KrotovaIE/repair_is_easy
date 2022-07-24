@@ -137,21 +137,21 @@ a:visited {
 }
 
 .container__additional {
-    // margin-left: 25%;
+    margin-left: 25%;
     background-color: $light_tx;
     box-shadow: 4px 4px 4px $brown_shadow;
     border-radius: 3%;
-    // height: 10rem;
-    // width: 48rem;
+    height: 10rem;
+    width: 48rem;
 
-    // .additional-text {
-    //     text-align: center;
-    //     color: $grey_tx;
-    //     padding: 3%;
-    //     font-family: 'Montserrat', Arial, sans-serif;
+    .additional-text {
+        text-align: center;
+        color: $grey_tx;
+        padding: 3%;
+        font-family: 'Montserrat', Arial, sans-serif;
 
-    //     font-weight: 600;
-    // }
+        font-weight: 600;
+    }
 
     .colortext {
         color: $yellow;
@@ -240,10 +240,10 @@ main {
         min-width: 470px;
     }
 
-    // .container__additional {
-    //     width: fit-content;
-    //     height: fit-content;
-    // }
+    .container__additional {
+        width: fit-content;
+        height: fit-content;
+    }
 
     .card-text {
         font-size: 1em;
@@ -317,10 +317,10 @@ main {
         text-align: center;
     }
 
-    // .container__additional {
-    //     width: 12rem;
-    //     height: fit-content;
-    // }
+    .container__additional {
+        width: 12rem;
+        height: fit-content;
+    }
 
     .carousel-item {
         max-width: 11rem;

@@ -1,7 +1,8 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Raleway:wght@100&display=swap");
 .main-page {
-  background: url("/assets/img/main_photo.png") no-repeat left top, linear-gradient(90.63deg, #4B535A 7.31%, #354049 71.98%);
+  background: url("../img/main_photo.png") no-repeat left top, linear-gradient(90.63deg, #4B535A 7.31%, #354049 71.98%);
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr minmax(300px, 600px);
@@ -67,6 +68,7 @@
   max-height: 80vh;
 }
 
+<<<<<<< HEAD
 .projects-photo {
   height: 100%;
 }
@@ -90,11 +92,74 @@
   text-align: center;
 }
 
+=======
+/* Блок "Давайте воплотим ваши мечты в реальность" начало */
+.dream {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 2em;
+  font-weight: 700;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dream_text {
+  color: #252B31;
+  padding-bottom: 2%;
+}
+
+.dream_img {
+  width: 3%;
+}
+
+/* Блок "Давайте воплотим ваши мечты в реальность" конец */
+/* Адаптив "Давайте воплотим ваши мечты в реальность"  начало*/
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .dream {
+    font-size: 1.7em;
+  }
+
+  .dream_img {
+    width: 5%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .dream_text {
+    font-size: 0.6em;
+  }
+
+  .dream_img {
+    width: 4%;
+  }
+}
+@media screen and (max-width: 479px) {
+  .dream {
+    font-size: 0.6em;
+  }
+
+  .dream_img {
+    width: 4%;
+  }
+}
+/* Конец адаптива "Давайте воплотим ваши мечты в реальность" */
+>>>>>>> master
 .whatsapp {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+<<<<<<< HEAD
   color: white;
   margin-bottom: 5%;
+=======
+  color: #F6FAFB;
+>>>>>>> master
 }
 
 .whatsapp-box {
@@ -135,9 +200,16 @@
 .whatsapp-box_link {
   grid-row: 2;
   grid-column: 9/12;
+<<<<<<< HEAD
   align-self: center;
   color: white;
   border-bottom: 1px solid white;
+=======
+  -ms-grid-row-align: center;
+      align-self: center;
+  color: #F6FAFB;
+  text-decoration: underline;
+>>>>>>> master
   letter-spacing: 0.05em;
   font-size: 1.6em;
 }
@@ -711,7 +783,20 @@ main {
   .form {
     min-width: 470px;
   }
+<<<<<<< HEAD
   .card-text {
+=======
+  .container__additional {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .card-text,
+.title {
+>>>>>>> master
     font-size: 1em;
   }
 }
@@ -769,6 +854,15 @@ main {
   .title {
     text-align: center;
   }
+<<<<<<< HEAD
+=======
+  .container__additional {
+    width: 12rem;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+>>>>>>> master
   .carousel-item {
     max-width: 11rem;
   }
@@ -780,4 +874,8 @@ main {
     width: 18rem;
     padding: 10%;
   }
+<<<<<<< HEAD
 }/*# sourceMappingURL=style.css.map */
+=======
+}
+>>>>>>> master

@@ -1,4 +1,54 @@
-.main-section__feedback {
-    padding-left: 5%;
-    padding-right: 5%;
+/* Блок "Давайте воплотим ваши мечты в реальность" начало */
+.dream {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    font-weight: 700;
+    align-items: center;
 }
+
+.dream_text {
+    color: #252B31;
+    padding-bottom: 2%;
+}
+
+.dream_img {
+    width: 3%;
+}
+
+/* Блок "Давайте воплотим ваши мечты в реальность" конец */
+/* Адаптив "Давайте воплотим ваши мечты в реальность"  начало*/
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .dream {
+        font-size: 1.7em;
+    }
+
+    .dream_img {
+        width: 5%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .dream_text {
+        font-size: 0.6em;
+    }
+
+    .dream_img {
+        width: 4%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .dream {
+        font-size: 0.6em;
+    }
+
+    .dream_img {
+        width: 4%;
+    }
+}
+
+/* Конец адаптива "Давайте воплотим ваши мечты в реальность" */
