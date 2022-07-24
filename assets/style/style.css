@@ -1,6 +1,44 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Raleway:wght@100&display=swap");
+.header {
+  background-color: #4B535A;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 1.3rem 0;
+}
+
+.header__logo {
+  padding-left: 5%;
+}
+
+.header__whatsapp {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 5%;
+}
+
+.header__whatsapp-icon {
+  width: 20%;
+}
+
+.header__whatsapp-tel {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.header__whatsapp-number {
+  color: #D49C6B;
+  font-weight: 600;
+}
+
+.header__whatsapp-call {
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+}
 
 .main-page {
   background: url("../img/main_photo.png") no-repeat left top, linear-gradient(90.63deg, #4B535A 7.31%, #354049 71.98%);
@@ -60,7 +98,7 @@
   text-align: center;
 }
 
-.carousel {
+.projects-carousel {
   margin-top: 5rem;
 }
 
@@ -108,32 +146,26 @@
   .dream {
     font-size: 1.7em;
   }
-
   .dream_img {
     width: 5%;
   }
 }
-
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .dream_text {
     font-size: 0.6em;
   }
-
   .dream_img {
     width: 4%;
   }
 }
-
 @media screen and (max-width: 479px) {
   .dream {
     font-size: 0.6em;
   }
-
   .dream_img {
     width: 4%;
   }
 }
-
 /* Конец адаптива "Давайте воплотим ваши мечты в реальность" */
 .whatsapp {
   display: grid;
@@ -180,6 +212,8 @@
   grid-row: 2;
   grid-column: 9/12;
   align-self: center;
+  color: white;
+  border-bottom: 1px solid white;
   color: #F6FAFB;
   text-decoration: underline;
   letter-spacing: 0.05em;
@@ -190,78 +224,64 @@
   .whatsapp-box_text {
     font-size: 1em;
   }
-
   .whatsapp-box_number {
     font-size: 1em;
   }
-
   .whatsapp-box_link {
     font-size: 1em;
   }
 }
-
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .whatsapp {
     display: flex;
     justify-content: center;
   }
-
   .whatsapp-box {
     height: 18vh;
     width: 80vw;
     display: grid;
     grid-template-rows: repeat(1fr 2fr 1fr);
   }
-
   .whatsapp-box_text {
     font-size: 0.7em;
     margin-top: 0;
     margin-bottom: 15%;
   }
-
   .whatsapp-box_number {
     font-size: 0.7em;
     padding-bottom: 40%;
   }
-
   .whatsapp-box_link {
     font-size: 0.8em;
   }
 }
-
 @media screen and (max-width: 479px) {
   .whatsapp {
     display: flex;
     justify-content: center;
   }
-
   .whatsapp-box {
     height: 10vh;
     width: 90vw;
     display: grid;
     grid-template-rows: repeat(1fr 2fr 1fr);
   }
-
   .whatsapp-box_text {
     font-size: 0.5em;
   }
-
   .whatsapp-box_img {
     grid-row: 2;
   }
-
   .whatsapp-box_number {
     align-self: start;
     padding-bottom: 0%;
     line-height: 0px;
     font-size: 0.46em;
   }
-
   .whatsapp-box_link {
     font-size: 0.5em;
   }
 }
-
 .form-wrapper {
   padding: 1rem 8vw 1rem 0;
 }
@@ -454,29 +474,18 @@
 }
 
 .footer-wrapper {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: minmax(240px, 1fr);
   grid-template-columns: minmax(240px, 1fr);
-  -ms-grid-rows: (0.2fr)[5];
   grid-template-rows: repeat(5, 0.2fr);
   padding: 1rem 8%;
 }
 
 .footer__corner-top {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
   grid-area: 1/1/2/2;
   justify-self: end;
 }
 
 .footer__title {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
   grid-area: 2/1/3/2;
 }
 
@@ -488,13 +497,7 @@
 }
 
 .footer__phone {
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
   grid-area: 3/1/4/2;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -522,19 +525,9 @@
 }
 
 .footer__time {
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
   grid-area: 3/1/4/2;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
   justify-content: flex-end;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   color: #F6FAFB;
   font-weight: 500;
@@ -542,13 +535,7 @@
 }
 
 .footer__mail {
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
   grid-area: 4/1/5/2;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   flex-wrap: nowrap;
 }
@@ -571,127 +558,68 @@
   text-decoration: none;
   color: #F6FAFB;
 }
-
 .a__mail:hover {
   color: #F6FAFB;
 }
 
 .footer__logo {
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
   grid-area: 4/1/5/2;
   justify-self: end;
 }
 
 .footer__corner-bottom {
-  -ms-grid-row: 5;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
   grid-area: 5/1/6/2;
   align-self: end;
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .footer-wrapper {
-    -ms-grid-rows: (0.7fr)[7];
     grid-template-rows: repeat(7, 0.7fr);
     padding: 1rem 8%;
   }
-
   .footer__phone {
-    -ms-grid-row: 4;
-    -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
     grid-area: 4/1/5/2;
   }
-
   .footer__time {
-    -ms-grid-row: 3;
-    -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
     grid-area: 3/1/4/2;
     justify-content: flex-start;
   }
-
   .footer__mail {
-    -ms-grid-row: 5;
-    -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
     grid-area: 5/1/6/2;
   }
-
   .footer__logo {
-    -ms-grid-row: 6;
-    -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
     grid-area: 6/1/7/2;
     justify-self: start;
   }
-
   .footer__corner-bottom {
-    -ms-grid-row: 7;
-    -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
     grid-area: 7/1/8/2;
   }
 }
-
 @media screen and (max-width: 479px) {
   .footer-wrapper {
-    -ms-grid-rows: (0.7fr)[7];
     grid-template-rows: repeat(7, 0.7fr);
     padding: 1rem 8%;
   }
-
   .footer__phone {
-    -ms-grid-row: 4;
-    -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
     grid-area: 4/1/5/2;
   }
-
   .footer__time {
-    -ms-grid-row: 3;
-    -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
     grid-area: 3/1/4/2;
     justify-content: flex-start;
   }
-
   .footer__mail {
-    -ms-grid-row: 5;
-    -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
     grid-area: 5/1/6/2;
   }
-
   .footer__logo {
-    -ms-grid-row: 6;
-    -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
     grid-area: 6/1/7/2;
     justify-self: start;
   }
-
   .footer__corner-bottom,
-  .footer__corner-top,
-  .footer__line {
+.footer__corner-top,
+.footer__line {
     display: none;
   }
 }
-
 .text {
   font-weight: 500;
   font-size: 2rem;
@@ -741,7 +669,6 @@ main {
   width: 80%;
   margin-left: 17%;
 }
-
 .container__services .card-body {
   margin: 13%;
   padding: 10%;
@@ -750,14 +677,12 @@ main {
   background-color: #D49C6B;
   box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
 }
-
 .container__services .card-title {
   color: #F6FAFB;
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 1, 5em;
   font-weight: 600;
 }
-
 .container__services .card-text {
   color: #252B31;
   font-family: "Montserrat", Arial, sans-serif;
@@ -810,24 +735,17 @@ a:visited {
 }
 
 .container__additional {
-  margin-left: 25%;
   background-color: #F6FAFB;
   box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
   border-radius: 3%;
-  height: 10rem;
-  width: 48rem;
 }
 
-.container__additional .additional-text {
-  text-align: center;
-  color: #252B31;
-  padding: 3%;
-  font-family: "Montserrat", Arial, sans-serif;
-  font-weight: 600;
-}
-
-.container__additional .colortext {
+.colortext {
   color: #D49C6B;
+}
+
+.main-section__feedback {
+  margin: 4% 5% 4%;
 }
 
 .feedback-items {
@@ -863,43 +781,33 @@ main {
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
   .main-page {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     padding: 0 4%;
   }
-
   .form-wrapper,
-  .main-text-wrapper {
+.main-text-wrapper {
     padding: 0;
     margin: 3rem auto;
   }
-
   .form {
     width: 700px;
   }
 }
-
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .main-page {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     padding: 0 4%;
   }
-
   .form-wrapper,
-  .main-text-wrapper {
+.main-text-wrapper {
     padding: 0;
     margin: 3rem auto;
   }
-
   .form {
     min-width: 470px;
   }
-
   .container__additional {
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -908,102 +816,79 @@ main {
     height: -moz-fit-content;
     height: fit-content;
   }
-
   .card-text {
     font-size: 1em;
   }
 }
-
 @media screen and (max-width: 479px) {
   .main-page {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     padding: 3%;
   }
-
   .main-text-wrapper {
     padding: 0 5%;
   }
-
   .form {
     border: 0.3rem solid #D49C6B;
   }
-
   .form__body {
     min-height: -webkit-fit-content;
     min-height: -moz-fit-content;
     min-height: fit-content;
     padding: 8%;
   }
-
   #message {
     padding: 0;
     font-size: 0.6em;
   }
-
   .form__input_textarea {
     margin-top: 0.6rem;
     min-height: 3rem;
   }
-
   .file__button,
-  .form__button {
+.form__button {
     font-size: 0.6em;
   }
-
   .form-wrapper,
-  .main-text-wrapper {
+.main-text-wrapper {
     padding: 0;
     margin: 1rem auto;
   }
-
   .form {
     max-width: 470px;
     font-size: 1.3em;
   }
-
   .form-wrapper {
     margin: 0;
   }
-
   .form__label {
     padding-top: 0rem;
   }
-
   .form__title {
     font-size: 0.8em;
   }
-
   .file {
     line-height: normal;
   }
-
   .title {
     text-align: center;
   }
-
   .container__additional {
     width: 12rem;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
-
   .carousel-item {
     max-width: 11rem;
   }
-
   .card-text,
-  .title {
+.title {
     font-size: 1em;
   }
-
   .container__services {
     width: 18rem;
     padding: 10%;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

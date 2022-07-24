@@ -13,11 +13,36 @@
 </head>
 
 <body>
-    <header>
-        <!-- Ира -->
+    <header class="header">
+        <img class="header__logo" src="assets/img/footer/logo.svg" alt="logo">
         <nav>
-
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">Главная<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Наши работы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Услуги</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </nav>
+        <div class="header__whatsapp">
+            <img class="header__whatsapp-icon" src="assets/img/Whatsapp.svg" alt="whatsapp">
+            <div class="header__whatsapp-tel">
+                <div class="header__whatsapp-number">8 (951) 772-29-16</div>
+                <div class="header__whatsapp-call">Написать сообщение</div>
+            </div>
+        </div>
     </header>
 
     <main>
@@ -90,7 +115,7 @@
                     <img class="line" src="assets/img/line.svg" alt="line">
                 </div>
                 <p class="project-text text">Высокие стандарты при доступных ценах</p>
-                <div id="carousel" class="carousel slide" data-ride="carousel">
+                <div id="carousel" class="carousel slide projects-carousel" data-ride="carousel">
                     <!-- Индикаторы -->
                     <ol class="carousel-indicators">
                         <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -450,7 +475,7 @@
                 <p class="mail-text">
                     <a class="a__mail" href="mailto:Remontevro74@list.ru">Remontevro74@list.ru
                     </a>
-                    <p>
+                <p>
             </div>
             <img src="assets/img/footer/logo.svg" alt="logo" class="footer__logo">
             <img src="assets/img/footer/corner-bottom.svg" alt="corner-bottom" class="footer__corner-bottom">

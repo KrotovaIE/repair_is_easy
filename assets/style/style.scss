@@ -137,31 +137,32 @@ a:visited {
 }
 
 .container__additional {
-    margin-left: 25%;
     background-color: $light_tx;
     box-shadow: 4px 4px 4px $brown_shadow;
     border-radius: 3%;
-    height: 10rem;
-    width: 48rem;
-
-    .additional-text {
-        text-align: center;
-        color: $grey_tx;
-        padding: 3%;
-        font-family: 'Montserrat', Arial, sans-serif;
-
-        font-weight: 600;
-    }
-
-    .colortext {
-        color: $yellow;
-    }
 }
+
+// .additional-text {
+//     text-align: center;
+//     color: $grey_tx;
+//     padding: 3%;
+//     font-family: 'Montserrat', Arial, sans-serif;
+
+//     font-weight: 600;
+// }
+
+.colortext {
+    color: $yellow;
+}
+
 
 // Катя услуги конец
 
 
 // Отзывы начало
+.main-section__feedback {
+    margin: 4% 5% 4%;
+}
 
 .feedback-items {
     margin-right: 27%;
@@ -188,8 +189,6 @@ body {
     height: 100vh;
     display: flex;
     flex-flow: column nowrap;
-    // padding-left: 8%;
-    // padding-right: 8%;
 }
 
 main {
