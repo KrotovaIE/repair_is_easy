@@ -20,6 +20,7 @@
   align-self: center;
   font-weight: $fwapp;
   font-size: $fsapp;
+  <<<<<<< HEAD=======>>>>>>>master
 }
 
 .whatsapp-box_number {
@@ -43,9 +44,11 @@
   grid-row: 2;
   grid-column: 9/12;
   align-self: center;
-  color: $light_tx;
+  <<<<<<< HEAD color: $fwhite;
+  border-bottom: 1px solid $fwhite;
+  =======color: $light_tx;
   text-decoration: underline;
-  letter-spacing: 0.05em;
+  >>>>>>>master letter-spacing: 0.05em;
   font-size: $fsapp;
 }
 
@@ -117,10 +120,12 @@
     width: 90vw;
     display: grid;
     grid-template-rows: repeat(1fr 2fr 1fr);
+    <<<<<<< HEAD=======>>>>>>>master
   }
 
   .whatsapp-box_text {
     font-size: $adapwhat;
+    <<<<<<< HEAD=======>>>>>>>master
   }
 
   .whatsapp-box_img {
