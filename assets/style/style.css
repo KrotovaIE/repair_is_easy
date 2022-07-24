@@ -4,9 +4,7 @@
 .main-page {
   background: url("../img/main_photo.png") no-repeat left top, linear-gradient(90.63deg, #4B535A 7.31%, #354049 71.98%);
   background-size: cover;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr minmax(300px, 600px);
   grid-template-columns: 1fr minmax(300px, 600px);
   grid-template-rows: 1fr;
 }
@@ -54,7 +52,12 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  gap: 2rem;
   margin-bottom: 1rem;
+}
+
+.line {
+  max-width: 30%;
 }
 
 .project-text {
@@ -85,6 +88,8 @@
 }
 
 .dream_text {
+  padding: 8%;
+  text-align: center;
   color: #252B31;
   padding-bottom: 2%;
 }
@@ -169,9 +174,10 @@
   text-decoration: underline;
   letter-spacing: 0.05em;
   font-size: 1.6em;
+  padding-top: 8%;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1250px) {
+@media screen and (min-width: 769px) and (max-width: 1279px) {
   .whatsapp-box_text {
     font-size: 1em;
   }
@@ -618,7 +624,6 @@ main {
 .container__services {
   height: 40%;
   width: 80%;
-  margin-left: 17%;
 }
 .container__services .card-body {
   margin: 13%;
@@ -656,7 +661,7 @@ a:visited {
 .container_industrial {
   height: 40%;
   width: 40%;
-  margin-left: 22%;
+  margin: 0 auto;
 }
 
 .modal-content {
@@ -686,12 +691,11 @@ a:visited {
 }
 
 .container__additional {
-  margin-left: 25%;
+  margin: 0 8%;
   background-color: #F6FAFB;
   box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
   border-radius: 3%;
   height: 10rem;
-  width: 48rem;
 }
 .container__additional .additional-text {
   text-align: center;
@@ -706,6 +710,7 @@ a:visited {
 
 .feedback-items {
   margin-right: 27%;
+  margin-bottom: 3rem;
 }
 
 .img__btn {
@@ -714,8 +719,17 @@ a:visited {
 }
 
 .feedback__line {
-  margin-left: 40%;
-  padding: 2%;
+  margin: 2rem auto;
+}
+
+.feedback__title {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-fluid {
+  width: auto;
+  max-width: 100%;
 }
 
 body {
@@ -762,14 +776,6 @@ main {
   }
   .form {
     min-width: 470px;
-  }
-  .container__additional {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
   }
   .card-text,
 .title {
@@ -829,12 +835,6 @@ main {
   .title {
     text-align: center;
   }
-  .container__additional {
-    width: 12rem;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-  }
   .carousel-item {
     max-width: 11rem;
   }
@@ -843,7 +843,6 @@ main {
     font-size: 1em;
   }
   .container__services {
-    width: 18rem;
     padding: 10%;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -47,9 +47,10 @@
   text-decoration: underline;
   letter-spacing: 0.05em;
   font-size: $fsapp;
+  padding-top: 8%;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1250px) {
+@media screen and (min-width: 769px) and (max-width: 1279px) {
 
   .whatsapp-box_text {
     font-size: $adaptmax;
