@@ -1,18 +1,7 @@
-$fwhite:white;
-$fwapp:700;
-$fsapp:1.6em;
-
-// adaptive max 479 font-size
-$adapwhat:0.5em;
-
-// adaptive (min-width: 769px) and (max-width: 1279px) font-size
-$adaptmax:1em;
-
-
 .whatsapp {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  color: $fwhite;
+  color: $light_tx;
 }
 
 .whatsapp-box {
@@ -31,7 +20,6 @@ $adaptmax:1em;
   align-self: center;
   font-weight: $fwapp;
   font-size: $fsapp;
-  
 }
 
 .whatsapp-box_number {
@@ -44,8 +32,6 @@ $adaptmax:1em;
   font-size: $fsapp;
 }
 
-
-
 .whatsapp-box_img {
   grid-row: 2;
   grid-column: 8;
@@ -57,14 +43,11 @@ $adaptmax:1em;
   grid-row: 2;
   grid-column: 9/12;
   align-self: center;
-  color: $fwhite;
-  border-bottom:  1px solid $fwhite;
+  color: $light_tx;
+  text-decoration: underline;
   letter-spacing: 0.05em;
   font-size: $fsapp;
 }
-
-
-
 
 @media screen and (min-width: 769px) and (max-width: 1250px) {
 
@@ -82,7 +65,6 @@ $adaptmax:1em;
     font-size: $adaptmax;
   }
 }
-
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
 
@@ -119,7 +101,7 @@ $adaptmax:1em;
   .whatsapp {
     display: flex;
     justify-content: center;
-    
+
   }
 
   .whatsapp-box {
@@ -127,12 +109,10 @@ $adaptmax:1em;
     width: 90vw;
     display: grid;
     grid-template-rows: repeat(1fr 2fr 1fr);
-    
   }
 
   .whatsapp-box_text {
     font-size: $adapwhat;
-   
   }
 
   .whatsapp-box_img {
