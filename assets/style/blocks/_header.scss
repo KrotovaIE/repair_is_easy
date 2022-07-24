@@ -1,0 +1,38 @@
+.header {
+    background-color: $grey_bg;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 1.3rem 0;
+}
+
+.header__logo {
+    padding-left: 5%;
+}
+
+.header__whatsapp {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 5%;
+}
+
+.header__whatsapp-icon {
+    width: 20%;
+}
+
+.header__whatsapp-tel {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.header__whatsapp-number {
+    color: $yellow;
+    font-weight: 600;
+}
+
+.header__whatsapp-call {
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
