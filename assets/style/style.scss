@@ -237,6 +237,10 @@ main {
     .form {
         width: 700px;
     }
+
+    .main-text__img{
+        transform: rotate(90deg);
+    }
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
@@ -263,6 +267,10 @@ main {
 
     .card-text {
         font-size: 1em;
+    }
+
+    .main-text__img{
+        transform: rotate(90deg);
     }
 }
 
@@ -378,6 +386,10 @@ main {
     .carousel-control-next,
     .carousel-indicators {
         display: none;
+    }
+
+    .main-text__img{
+        transform: rotate(90deg);
     }
 
 }
