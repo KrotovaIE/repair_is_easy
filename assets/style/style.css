@@ -906,9 +906,6 @@ main {
   .carousel-item img {
     max-width: 100%;
   }
-  .img-fluid {
-    height: 100%;
-  }
   .carousel-inner {
     width: 80vw;
     height: auto;
