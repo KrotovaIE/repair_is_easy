@@ -18,8 +18,9 @@
 
 .text-white {
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.3rem;
     color: $light_tx;
+    padding: 2% 0;
 }
 
 .title {
@@ -159,15 +160,6 @@ a:visited {
     padding:0.4rem;
 }
 
-// .additional-text {
-//     text-align: center;
-//     color: $grey_tx;
-//     padding: 3%;
-//     font-family: 'Montserrat', Arial, sans-serif;
-
-//     font-weight: 600;
-// }
-
 .colortext {
     color: $yellow;
 }
@@ -218,7 +210,8 @@ main {
 }
 
 
-@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 1280px) {
+}
 
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
@@ -283,6 +276,14 @@ main {
 
     .main-text-wrapper {
         padding: 0 5%;
+    }
+
+    .main-text__title{
+        font-size: 2.1em;
+    }
+
+    .main-text__text{
+        padding: 0.5rem;
     }
 
     .form {
@@ -373,9 +374,6 @@ main {
         max-width: 0 auto;
     }
 
-    .container__services {
-    }
-
     .carousel-control-prev,
     .carousel-control-next,
     .carousel-indicators {
@@ -384,6 +382,15 @@ main {
 
     .main-text__img{
         transform: rotate(90deg);
+    }
+
+    .header__logo{
+        width: 100px;
+    }
+
+    .header__whatsapp-call, .header__whatsapp-number{
+        font-size: 0.7em;
+        padding-left: 1em;
     }
 
 }
