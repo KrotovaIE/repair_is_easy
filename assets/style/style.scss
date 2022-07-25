@@ -321,8 +321,28 @@ main {
         height: fit-content;
     }
 
-    .carousel-item {
-        max-width: 11rem;
+    .carousel-item img {
+        max-width: 100%;
+    }
+
+    .carousel-item {}
+
+    .img-fluid {
+        height: 100%;
+    }
+
+    .carousel-inner {
+        width: 80vw;
+    }
+
+    .feedback-items {
+        margin: 0 auto;
+    }
+
+    .carousel,
+    .projects_slider {
+        display: flex;
+        margin: 0 auto;
     }
 
     .card-text,
@@ -330,9 +350,19 @@ main {
         font-size: 1em;
     }
 
+    .feedback__line {
+        max-width: 0 auto;
+    }
+
     .container__services {
         width: 18rem;
         padding: 10%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next,
+    .carousel-indicators {
+        display: none;
     }
 
 }
