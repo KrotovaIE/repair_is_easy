@@ -26,7 +26,7 @@
   grid-row: 2;
   grid-column: 9/12;
   align-self: center;
-  padding-bottom: 20%;
+  padding-bottom: 30%;
   line-height: 44px;
   font-weight: $fwapp;
   font-size: $fsapp;
@@ -80,18 +80,18 @@
   }
 
   .whatsapp-box_text {
-    font-size: 0.7em;
+    font-size: 0.9em;
     margin-top: 0;
     margin-bottom: 15%;
   }
 
   .whatsapp-box_number {
-    font-size: 0.7em;
+    font-size: 0.75em;
     padding-bottom: 40%;
   }
 
   .whatsapp-box_link {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
 }
@@ -122,10 +122,14 @@
     align-self: start;
     padding-bottom: 0%;
     line-height: 0px;
-    font-size: 0.46em;
+    font-size: 0.7em;
   }
 
   .whatsapp-box_link {
     font-size: $adapwhat;
+  }
+
+  .whatsapp-box_number {
+    font-size: 0.5em;
   }
 }
