@@ -91,7 +91,7 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .project-text {
@@ -99,16 +99,12 @@
 }
 
 .projects-carousel {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .carousel-inner {
   text-align: center;
-  max-height: 80vh;
-}
-
-.projects-photo {
-  height: 100%;
+  max-height: 70vh;
 }
 
 .line {
@@ -118,6 +114,9 @@
 .main-section__services {
   padding-left: 8%;
   padding-right: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Блок "Давайте воплотим ваши мечты в реальность" начало */
@@ -132,8 +131,9 @@
 }
 
 .dream_text {
+  text-align: center;
   color: #252B31;
-  padding-bottom: 2%;
+  padding: 1rem 8%;
 }
 
 .dream_img {
@@ -622,7 +622,7 @@
 }
 .text {
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: #252B31;
 }
 
@@ -665,17 +665,27 @@ main {
 }
 
 .container__services {
-  height: 40%;
-  width: 80%;
-  margin-left: 17%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.container__services .col {
+  display: flex;
+  justify-content: center;
 }
 .container__services .card-body {
-  margin: 13%;
-  padding: 10%;
   border: 1px;
-  border-radius: 5%;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
   background-color: #D49C6B;
   box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
+  /* Три значения: flex-grow | flex-shrink | flex-basis */
+  flex: 2 1 250px;
+  max-width: 320px;
+  min-width: 250px;
+  min-height: 300px;
 }
 .container__services .card-title {
   color: #F6FAFB;
@@ -737,7 +747,12 @@ a:visited {
 .container__additional {
   background-color: #F6FAFB;
   box-shadow: 4px 4px 4px rgba(92, 13, 13, 0.25);
-  border-radius: 3%;
+  border-radius: 1em;
+  margin-top: 2rem;
+}
+
+.title_md {
+  font-size: 1.5em;
 }
 
 .colortext {
@@ -875,7 +890,6 @@ main {
     text-align: center;
   }
   .container__additional {
-    width: 12rem;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -904,10 +918,6 @@ main {
   }
   .feedback__line {
     max-width: 0 auto;
-  }
-  .container__services {
-    width: 18rem;
-    padding: 10%;
   }
   .carousel-control-prev,
 .carousel-control-next,
