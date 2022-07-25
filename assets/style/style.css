@@ -888,6 +888,7 @@ main {
   }
   .carousel-inner {
     width: 80vw;
+    height: auto;
   }
   .feedback-items {
     margin: 0 auto;
