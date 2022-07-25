@@ -12,7 +12,7 @@
 
 .text {
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: $grey_tx;
 }
 
@@ -60,17 +60,28 @@ main {
 }
 
 .container__services {
-    height: 40%;
-    width: 80%;
-    margin-left: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items:  center;
+
+    .col{
+        display: flex;
+        justify-content: center;
+    }
 
     .card-body {
-        margin: 13%;
-        padding: 10%;
         border: 1px;
-        border-radius: 5%;
+        gap: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 1rem;
         background-color: $yellow;
         box-shadow: 4px 4px 4px $brown_shadow;
+        /* Три значения: flex-grow | flex-shrink | flex-basis */
+        flex: 2 1 250px;
+        max-width: 320px;
+        min-width: 250px;
+        min-height: 300px;
     }
 
     .card-title {
@@ -139,7 +150,12 @@ a:visited {
 .container__additional {
     background-color: $light_tx;
     box-shadow: 4px 4px 4px $brown_shadow;
-    border-radius: 3%;
+    border-radius: 1em;
+    margin-top: 2rem;
+}
+
+.title_md {
+    font-size: 1.5em;
 }
 
 // .additional-text {
@@ -317,7 +333,6 @@ main {
     }
 
     .container__additional {
-        width: 12rem;
         height: fit-content;
     }
 
@@ -356,8 +371,6 @@ main {
     }
 
     .container__services {
-        width: 18rem;
-        padding: 10%;
     }
 
     .carousel-control-prev,
