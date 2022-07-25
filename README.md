@@ -41,7 +41,7 @@ Asya<br>
 [@Asya1306](https://github.com/Asya1306)
 
 Irina Krotova<br>
-[KrotovaIE](https://github.com/KrotovaIE)
+[@KrotovaIE](https://github.com/KrotovaIE)
 
 
 
