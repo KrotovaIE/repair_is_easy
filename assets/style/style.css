@@ -275,7 +275,7 @@
     margin-bottom: 15%;
   }
   .whatsapp-box_number {
-    font-size: 0.75em;
+    font-size: 1em;
     padding-bottom: 40%;
   }
   .whatsapp-box_link {
@@ -301,14 +301,12 @@
   }
   .whatsapp-box_number {
     align-self: start;
-    padding-bottom: 0%;
+    padding-bottom: 0;
+    padding-top: 0.3rem;
     line-height: 0px;
-    font-size: 0.7em;
-  }
-  .whatsapp-box_link {
     font-size: 0.5em;
   }
-  .whatsapp-box_number {
+  .whatsapp-box_link {
     font-size: 0.5em;
   }
 }
