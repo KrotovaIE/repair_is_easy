@@ -25,8 +25,9 @@
 
 .title {
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 1.9rem;
     color: $grey_tx;
+    padding: 2%;
 }
 
 .title-white {
@@ -83,6 +84,11 @@ main {
         max-width: 320px;
         min-width: 250px;
         min-height: 300px;
+    }
+
+    .card-body:hover {
+        background-color: $grey_md;
+        transition: all 0.5s ease 0s;
     }
 
     .card-title {
@@ -175,6 +181,7 @@ a:visited {
 
 .feedback-items {
     margin-right: 27%;
+    margin-top: 1rem;
 }
 
 .img__btn {
@@ -183,9 +190,8 @@ a:visited {
 }
 
 .feedback__line {
-    margin-left: 40%;
-    padding: 2%;
     width: 30%;
+    padding: 0.5rem 0.6rem;
 }
 
 // Отзывы конец

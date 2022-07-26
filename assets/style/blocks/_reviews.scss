@@ -19,7 +19,14 @@
     width: 3%;
 }
 
+
 /* Блок "Давайте воплотим ваши мечты в реальность" конец */
+
+.img-fluid{
+    border-radius: 1rem;
+    border: 1px solid #252b312e;
+}
+
 /* Адаптив "Давайте воплотим ваши мечты в реальность"  начало*/
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
